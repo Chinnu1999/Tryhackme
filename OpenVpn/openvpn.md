@@ -1,7 +1,7 @@
 ![image](https://user-images.githubusercontent.com/94435318/154879611-2e4d82fa-c711-4259-ab3b-470369dbc333.png)
 
 Task-1 Connecting to our network
-
+---
 Get Connected﻿
 
 To connect to our network, you need to download the OpenVPN GUI open-source application and import your VPN configuration file.
@@ -19,7 +19,7 @@ Download your configuration file from the access page.
 -----------------------------------------Here I am using Linux--------------------------------------
 
 Task-4 Connecting with Linux
-
+---
 ![image](https://user-images.githubusercontent.com/94435318/154878131-212afa19-6939-482e-8a84-fdebd332f1a7.png)
 
 1. Download OpenVPN by running the following command in your terminal: sudo apt install openvpn
@@ -36,8 +36,7 @@ Connect to our network on Linux using your OpenVPN configuration file.
 ![image](https://user-images.githubusercontent.com/94435318/154878243-2b7e6b8a-67d2-4da6-8565-7afdf709f5fe.png)
 
 Task-5 Using Tryhackme without a VPN
-
-
+---
 
 If you are unable to connect to our network through the VPN, you can deploy a Kali Linux machine and control it in your browser. You can then access all TryHackMe machines through that machine. Free users can deploy the machine for 1 hour a day, subscribers have unlimited access.
 
@@ -69,7 +68,7 @@ What is the flag displayed on the deployed machine's website?
 
 
 Completed:
-
+---
 ![image](https://user-images.githubusercontent.com/94435318/154878887-553fd4b5-2615-4760-9299-ec6e3a33a2d3.png)
 
 ![image](https://user-images.githubusercontent.com/94435318/154879697-7a203414-bb62-459f-b7db-b0cd63a0e46f.png)
