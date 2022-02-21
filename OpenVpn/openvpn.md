@@ -9,11 +9,13 @@ On TryHackMe you can deploy virtual machines that you can use to hack into and l
 Firstly, go to the access page and download your VPN configuration file. Then read the task that is suited for your computer.
 
 Answer:
+
 Download your configuration file from the access page.
 
 ![image](https://user-images.githubusercontent.com/94435318/154877279-1df51289-0f8d-4e8f-978f-a8e5f928fb36.png)
 
 -----------------------------------------Here I am using Linux--------------------------------------
+
 Task-4 Connecting with Linux
 
 ![image](https://user-images.githubusercontent.com/94435318/154878131-212afa19-6939-482e-8a84-fdebd332f1a7.png)
@@ -52,11 +54,13 @@ You can check if you're connected to our network by a green tick next to connect
 Now verify that you're connected by deploying a machine and accessing its website. Deploy the machine on this task (it will take a few minutes to boot). Go to http://MACHINE_IP - can you see a website?
 
 Answer:
+
 Try to open the given ip in browser.
 
 ![image](https://user-images.githubusercontent.com/94435318/154878595-fec0caa2-4f73-46f7-9115-9f036cd8fb97.png)
 
 Answer:
+
 What is the flag displayed on the deployed machine's website?
 
 ![image](https://user-images.githubusercontent.com/94435318/154878667-09bd6c30-16ee-4e24-9b63-abb12a8fc2d5.png)
