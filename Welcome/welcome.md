@@ -1,7 +1,7 @@
 ![image](https://user-images.githubusercontent.com/94435318/154879883-c1a7fba5-6592-4c47-9009-438d3ff9f509.png)
 
 Task-1 What are rooms?
-
+---
 ![image](https://user-images.githubusercontent.com/94435318/154879990-c0b15e8a-85c7-45b9-85f0-aea1725a4c0c.png)
 
 Think of a room like a virtual classroom that teaches a security topic.
@@ -13,7 +13,7 @@ Answer:
 Rooms include questions that award you points, use the leaderboards to see where you rank against other fellow hackers.
 
 Task-2 Deploy your first machine
-
+---
 ![image](https://user-images.githubusercontent.com/94435318/154880118-08377263-1931-46ec-acea-f75661e72efd.png)
 
 Some tasks will have you learning by doing, often through hacking a virtual machine.
@@ -43,9 +43,9 @@ Answer:
 What is the flag text shown on website of the machine you deployed on this task?
 
 flag{connection_verified}
-
+---
 Task-3 Next Steps
-
+---
 ![image](https://user-images.githubusercontent.com/94435318/154880447-86f0decf-1797-4078-827f-50842b7e5856.png)
 
 Now you've managed to deploy and access a TryHackMe machine, search for a security topic to learn on the Hacktivities page.
