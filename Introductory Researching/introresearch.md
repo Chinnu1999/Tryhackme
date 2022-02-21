@@ -171,3 +171,91 @@ Answer - CVE-2016-1240
 
 3. What is the very first CVE found in the VLC media player?
 
+![image](https://user-images.githubusercontent.com/94435318/154890713-429ca294-241a-43b7-b9b5-893fd59080b4.png)
+
+Answer - CVE-2007-0017
+
+4. If you wanted to exploit a 2020 buffer overflow in the sudo program, which CVE would you use?
+
+![image](https://user-images.githubusercontent.com/94435318/154891440-eadb3b25-912c-40dc-a3d6-a643343c6002.png)
+
+Answer - CVE-2019-18634
+
+Task-4 Manual Pages
+
+If you haven't already worked in Linux, take a look at the Linux Fundamentals module. Linux (usually Kali Linux) is without a doubt the most ubiquitous operating system used in hacking, so it pays to be familiar with it!
+
+One of the many useful features of Linux is the inbuilt man command, which gives you access to the manual pages for most tools directly inside your terminal. Occasionally you'll find a tool that doesn't have a manual entry; however, this is rare. Generally speaking, when you don't know how to use a tool, man should be your first port of call.
+
+Let's give this a shot!
+
+Say we want to connect to a remote computer using SSH, but we don't know the syntax. We can try man ssh to get the manual page for SSH:
+
+![image](https://user-images.githubusercontent.com/94435318/154892065-a71994a2-12c5-4da0-ac66-bead652f39f9.png)
+
+Awesome!
+
+We can see in the description that the syntax for using SSH is <user@host>:
+    
+We can also use the man pages to look for special switches in programs that make the program do other things. An example of this would be that (from our very first example) steghide can be used to both extract and embed files inside an image, based on the switches that you give it. 
+
+For example, if you wanted to display the version number for SSH, you would scroll down in the man page until you found an appropriate switch:
+
+   ![image](https://user-images.githubusercontent.com/94435318/154892278-02580037-f31e-4d65-99c1-a7436231f396.png)
+   
+Then use it:
+
+![image](https://user-images.githubusercontent.com/94435318/154892845-83659f6a-b183-40d3-a8f6-2ce9ca109031.png)
+
+Another way to find that switch would have been to search the man page for the correct switch using grep:
+
+![image](https://user-images.githubusercontent.com/94435318/154892881-91c0528d-4544-40a8-9ca7-0bf38a51edd8.png)
+
+Now your turn! Answer the following questions using the man command:
+
+Answer the questions below ----------------------------------------------------
+
+1. SCP is a tool used to copy files from one computer to another. What switch would you use to copy an entire directory?
+
+use man scp command in terminal
+
+![image](https://user-images.githubusercontent.com/94435318/154893203-4999a764-2e41-4857-aea4-dad38d63e9a6.png)
+
+Answer: -r
+
+2. fdisk is a command used to view and alter the partitioning scheme used on your hard drive. What switch would you use to list the current partitions?
+ 
+![image](https://user-images.githubusercontent.com/94435318/154894231-d3030ea0-176d-4ff0-9a5d-2b7b5d760f77.png)
+
+Answer:  -l
+
+3. nano is an easy-to-use text editor for Linux. There are arguably better editors (Vim, being the obvious choice); however, nano is a great one to start with. What switch would you use to make a backup when opening a file with nano?
+
+![image](https://user-images.githubusercontent.com/94435318/154894359-8a83307c-347f-4cae-aa09-4e9165806b2c.png)
+
+AnswerL -B
+
+4. Netcat is a basic tool used to manually send and receive network requests. What command would you use to start netcat in listen mode, using port 12345?
+
+![image](https://user-images.githubusercontent.com/94435318/154894765-2198f301-7d5a-483d-af8a-9564308ab000.png)
+![image](https://user-images.githubusercontent.com/94435318/154894792-f48cf8fc-7e0e-4487-9bf9-05533827eb94.png)
+
+Answer: nc -l -p 12345
+
+Task-5 Final Thoughts
+
+
+
+You may have been told in school that there are good sources and bad sources of information. That may be true when it comes to essays and referencing information; however, it's my pleasure to state that it does not apply here. Any information can potentially be useful -- so feel free to use blogs, wikipedia, or anything else that contains what you're looking for! Blogs especially can often be very valuable for learning when it comes to information security, as many security researchers keep a blog.
+
+Having completed this room, you hopefully now have established the basis of a methodology to tackle research questions that you come across by yourself. The vast majority of rooms on TryHackMe can be solved purely using knowledge found on Google, so please take the opportunity to improve your skills by Googling any problems you come across!
+
+As a follow-up to this room, complete CMNatic's Google Dorking room to learn some advanced Google tricks!
+
+Completed:
+
+![image](https://user-images.githubusercontent.com/94435318/154894907-ef8ab152-4962-4a24-8899-2336b5ce05f0.png)
+
+![image](https://user-images.githubusercontent.com/94435318/154894961-0370cc67-5172-4663-ac19-66ad54cb9c8d.png)
+
+-----------------------------------------------------------------------------------------------------
