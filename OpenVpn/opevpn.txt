@@ -7,3 +7,5 @@ To connect to our network, you need to download the OpenVPN GUI open-source appl
 On TryHackMe you can deploy virtual machines that you can use to hack into and learn from. However, to access these machines you need to be connected to our network. You do this through using a VPN (similar to how you would connect to a work or school computer from home).
 
 Firstly, go to the access page and download your VPN configuration file. Then read the task that is suited for your computer.
+
+![image](https://user-images.githubusercontent.com/94435318/154877279-1df51289-0f8d-4e8f-978f-a8e5f928fb36.png)
