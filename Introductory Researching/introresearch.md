@@ -1,7 +1,7 @@
 ![image](https://user-images.githubusercontent.com/94435318/154881500-d80eb616-9787-4f1d-a2f3-59a9c2b53d83.png)
 
 Task-1 Introduction
-
+---
 Without a doubt, the ability to research effectively is the most important quality for a hacker to have. By its very nature, hacking requires a vast knowledge base -- because how are you supposed to break into something if you don't know how it works? The thing is: no one knows everything. Everyone (professional or amateur, experienced or totally new to the subject) will encounter problems which they don't automatically know how to solve. This is where research comes in, as, in the real world, you can't ever expect to simply be handed the answers to your questions.
 
 As your experience level increases, you will find that the things you're researching scale in their difficulty accordingly; however, in the field of information security, there will never come a point where you don't need to look things up.
@@ -16,7 +16,7 @@ We will be looking at the following topics:
 Let's begin.
 
 Tak-2 Example Research Question
-
+---
 We'll begin by looking at a typical research question: the kind that you're likely to find when working through a CTF on TryHackMe.
 
 Let's say you've downloaded a JPEG image from a remote server. You suspect that there's something hidden inside it, but how can you get it out?
@@ -66,7 +66,7 @@ Notice the methodology here. We started with nothing, but gradually built up a p
 Now it's your turn. See if you can answer the following questions using your research skills. The first three questions have appropriate search queries in the hints:
 
 Answer the questions below -------------------------------------
-
+---
 1. In the Burp Suite Program that ships with Kali Linux, what mode would you use to manually send a request (often repeating a captured request numerous times)?
 
 ![image](https://user-images.githubusercontent.com/94435318/154883281-3b213148-436f-4d11-9c51-8f41ff2124ff.png)
@@ -74,7 +74,7 @@ Answer the questions below -------------------------------------
 ![image](https://user-images.githubusercontent.com/94435318/154883153-dba6bae2-3a45-4112-81b5-a4e8828b49e8.png)
 
 Answer - Repeater
-
+---
 2. What hash format are modern Windows login passwords stored in?
 
 ![image](https://user-images.githubusercontent.com/94435318/154883862-aeca730e-00cf-40c4-b06e-59b942a2fd41.png)
@@ -82,7 +82,7 @@ Answer - Repeater
 ![image](https://user-images.githubusercontent.com/94435318/154883744-103b30fa-1fe5-40c6-ad47-c6866e573a02.png)
 
 Answer - NTLM
-
+---
 3. What are automated tasks called in Linux?
 
 ![image](https://user-images.githubusercontent.com/94435318/154883946-8b5e46a9-c951-438a-8233-66ceba2fe5c4.png)
@@ -90,7 +90,7 @@ Answer - NTLM
 ![image](https://user-images.githubusercontent.com/94435318/154883991-cb689807-9475-427a-9c4e-e3f81f263d9e.png)
 
 Answer - Cron Jobs
-
+---
 4. What number base could you use as a shorthand for base 2 (binary)?
 
 ![image](https://user-images.githubusercontent.com/94435318/154884074-4e848ab1-c5ec-44c2-a7ea-ceec9522a465.png)
@@ -98,7 +98,7 @@ Answer - Cron Jobs
 ![image](https://user-images.githubusercontent.com/94435318/154884250-07fc9045-a9fc-46d9-8e94-05f464fff3ba.png)
 
 Answer - base 16
-
+---
 5. If a password hash starts with $6$, what format is it (Unix variant)?
 
 ![image](https://user-images.githubusercontent.com/94435318/154884775-014edffa-de4c-4164-820f-886804af8120.png)
@@ -106,9 +106,9 @@ Answer - base 16
 ![image](https://user-images.githubusercontent.com/94435318/154884729-6b52c16d-5c22-4639-8962-61538dd981eb.png)
 
 Answer - sha512crypt
-
+---
 Task-3 Vulnerability Searching 
-
+---
 Often in hacking you'll come across software that might be open to exploitation. For example, Content Management Systems (such as Wordpress, FuelCMS, Ghost, etc) are frequently used to make setting up a website easier, and many of these are vulnerable to various attacks. So where would we look if we wanted to exploit specific software?
 
 The answer to that question lies in websites such as:
@@ -156,33 +156,33 @@ Pay particular attention to the CVE numbers; you'll need them for the questions!
 The format will be like so: CVE-YEAR-NUMBER
 
 Answer the questions below ----------------------------------------------
-
+---
 1. What is the CVE for the 2020 Cross-Site Scripting (XSS) vulnerability found in WPForms?
 
 ![image](https://user-images.githubusercontent.com/94435318/154886297-33cd9b2f-13fb-4a58-952f-452a15c3fc02.png)
 
 Answer - CVE-2020-10385
-
+---
 2. There was a Local Privilege Escalation vulnerability found in the Debian version of Apache Tomcat, back in 2016. What's the CVE for this vulnerability?
 
 ![image](https://user-images.githubusercontent.com/94435318/154886521-f0cb1c14-a386-4895-83f5-00e4b4193f9b.png)
 
 Answer - CVE-2016-1240
-
+---
 3. What is the very first CVE found in the VLC media player?
 
 ![image](https://user-images.githubusercontent.com/94435318/154890713-429ca294-241a-43b7-b9b5-893fd59080b4.png)
 
 Answer - CVE-2007-0017
-
+---
 4. If you wanted to exploit a 2020 buffer overflow in the sudo program, which CVE would you use?
 
 ![image](https://user-images.githubusercontent.com/94435318/154891440-eadb3b25-912c-40dc-a3d6-a643343c6002.png)
 
 Answer - CVE-2019-18634
-
+---
 Task-4 Manual Pages
-
+---
 If you haven't already worked in Linux, take a look at the Linux Fundamentals module. Linux (usually Kali Linux) is without a doubt the most ubiquitous operating system used in hacking, so it pays to be familiar with it!
 
 One of the many useful features of Linux is the inbuilt man command, which gives you access to the manual pages for most tools directly inside your terminal. Occasionally you'll find a tool that doesn't have a manual entry; however, this is rare. Generally speaking, when you don't know how to use a tool, man should be your first port of call.
@@ -214,7 +214,7 @@ Another way to find that switch would have been to search the man page for the c
 Now your turn! Answer the following questions using the man command:
 
 Answer the questions below ----------------------------------------------------
-
+---
 1. SCP is a tool used to copy files from one computer to another. What switch would you use to copy an entire directory?
 
 use man scp command in terminal
@@ -222,29 +222,28 @@ use man scp command in terminal
 ![image](https://user-images.githubusercontent.com/94435318/154893203-4999a764-2e41-4857-aea4-dad38d63e9a6.png)
 
 Answer: -r
-
+---
 2. fdisk is a command used to view and alter the partitioning scheme used on your hard drive. What switch would you use to list the current partitions?
  
 ![image](https://user-images.githubusercontent.com/94435318/154894231-d3030ea0-176d-4ff0-9a5d-2b7b5d760f77.png)
 
 Answer:  -l
-
+---
 3. nano is an easy-to-use text editor for Linux. There are arguably better editors (Vim, being the obvious choice); however, nano is a great one to start with. What switch would you use to make a backup when opening a file with nano?
 
 ![image](https://user-images.githubusercontent.com/94435318/154894359-8a83307c-347f-4cae-aa09-4e9165806b2c.png)
 
 AnswerL -B
-
+---
 4. Netcat is a basic tool used to manually send and receive network requests. What command would you use to start netcat in listen mode, using port 12345?
 
 ![image](https://user-images.githubusercontent.com/94435318/154894765-2198f301-7d5a-483d-af8a-9564308ab000.png)
 ![image](https://user-images.githubusercontent.com/94435318/154894792-f48cf8fc-7e0e-4487-9bf9-05533827eb94.png)
 
 Answer: nc -l -p 12345
-
+---
 Task-5 Final Thoughts
-
-
+---
 
 You may have been told in school that there are good sources and bad sources of information. That may be true when it comes to essays and referencing information; however, it's my pleasure to state that it does not apply here. Any information can potentially be useful -- so feel free to use blogs, wikipedia, or anything else that contains what you're looking for! Blogs especially can often be very valuable for learning when it comes to information security, as many security researchers keep a blog.
 
@@ -253,7 +252,7 @@ Having completed this room, you hopefully now have established the basis of a me
 As a follow-up to this room, complete CMNatic's Google Dorking room to learn some advanced Google tricks!
 
 Completed:
-
+---
 ![image](https://user-images.githubusercontent.com/94435318/154894907-ef8ab152-4962-4a24-8899-2336b5ce05f0.png)
 
 ![image](https://user-images.githubusercontent.com/94435318/154894961-0370cc67-5172-4663-ac19-66ad54cb9c8d.png)
