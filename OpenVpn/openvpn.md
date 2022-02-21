@@ -1,3 +1,5 @@
+![image](https://user-images.githubusercontent.com/94435318/154879611-2e4d82fa-c711-4259-ab3b-470369dbc333.png)
+
 Task-1 Connecting to our network
 
 Get Connected﻿
@@ -69,3 +71,5 @@ What is the flag displayed on the deployed machine's website?
 Completed:
 
 ![image](https://user-images.githubusercontent.com/94435318/154878887-553fd4b5-2615-4760-9299-ec6e3a33a2d3.png)
+
+![image](https://user-images.githubusercontent.com/94435318/154879697-7a203414-bb62-459f-b7db-b0cd63a0e46f.png)
