@@ -103,3 +103,13 @@ Answer the questions below
 ![image](https://user-images.githubusercontent.com/94435318/161412831-3b626cc4-46d5-4bd2-87b9-a1e27bd67527.png)
 
 ### Answer: THM{Topology_Flaws}
+
+# 🟥 Task-2 A Primer on Subnetting
+
+As we've previously discussed throughout the module so far, Networks can be found in all shapes and sizes - ranging from small to large. Subnetting is the term given to splitting up a network into smaller, miniature networks within itself. Think of it as slicing up a cake for your friends. There's only a certain amount of cake to go around, but everybody wants a piece. Subnetting is you deciding who gets what slice & reserving such a slice of this metaphorical cake.
+
+Take a business, for example; You will have different departments such as:
+
+     * Accounting
+     * Finance
+     * Human Resources
