@@ -104,6 +104,8 @@ Answer the questions below
 
 ### Answer: THM{Topology_Flaws}
 
+-----------------------------------------------------------------------------------------------
+
 # 🟥 Task-2 A Primer on Subnetting
 
 As we've previously discussed throughout the module so far, Networks can be found in all shapes and sizes - ranging from small to large. Subnetting is the term given to splitting up a network into smaller, miniature networks within itself. Think of it as slicing up a cake for your friends. There's only a certain amount of cake to go around, but everybody wants a piece. Subnetting is you deciding who gets what slice & reserving such a slice of this metaphorical cake.
@@ -113,3 +115,45 @@ Take a business, for example; You will have different departments such as:
      * Accounting
      * Finance
      * Human Resources
+
+![image](https://user-images.githubusercontent.com/94435318/161412939-94b96fee-3646-41ef-b84f-f7a304397413.png)
+
+Whilst you know where to send information in real life to the correct department, networks need to know as well. Network administrators use subnetting to categorise and assign specific parts of a network to reflect this.
+
+Subnetting is achieved by splitting up the number of hosts that can fit within the network, represented by a number called a subnet mask. Let's refer back to our diagram from the first room in this module:
+
+![image](https://user-images.githubusercontent.com/94435318/161412958-0bd62a17-00c0-4fe0-9fea-b901a65147d1.png)
+
+As we can recall, an IP address is made up of four sections called octets. The same goes for a subnet mask which is also represented as a number of four bytes (32 bits), ranging from 0 to 255 (0-255).
+
+Subnets use IP addresses in three different ways:
+    * Identify the network address
+    * Identify the host address
+    * Identify the default gateway
+
+Let's split these three up to understand their purposes into the table below:
+
+![image](https://user-images.githubusercontent.com/94435318/161412991-c22c0baa-1ae8-45bc-9457-bdebcd9f8c9b.png)
+
+Now, in small networks such as at home, you will be on one subnet as there is an unlikely chance that you need more than 254 devices connected at one time.
+
+However, places such as businesses and offices will have much more of these devices (PCs, printers, cameras and sensors), where subnetting takes place.
+
+Subnetting provides a range of benefits, including:
+    * Efficiency
+    * Security
+    * Full control
+    
+We'll come on to explore exactly how subnetting provides these benefits at a later date; however, for now, all we need to understand is the security element to it. Let's take the typical café on the street. This cafe will have two networks:
+
+One for employees, cash registers, and other devices for the facility
+One for the general public to use as a hotspot
+Subnetting allows you to separate these two use cases from each other whilst having the benefits of a connection to larger networks such as the Internet.
+
+-----------------------------------------------------------------------------------------------
+
+Answer the questions below
+--
+
+
+What is the technical term for dividing a network up into smaller pieces?
