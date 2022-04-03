@@ -61,6 +61,10 @@ Fragment: This is a reference to a location on the actual page requested. This i
 
 ## Making a Request
              It's possible to make a request to a web server with just one line "GET / HTTP/1.1"
+             
+ <p align="center">
+  <img width="460" height="300" src="https://user-images.githubusercontent.com/94435318/161421168-f78b626f-5a56-4b6a-875b-2467d3f722c1.png">
+</p>            
 
 ![image](https://user-images.githubusercontent.com/94435318/161421168-f78b626f-5a56-4b6a-875b-2467d3f722c1.png)
 
