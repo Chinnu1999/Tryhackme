@@ -67,40 +67,40 @@ Attached to this task is an interactive practical featuring the discussed LAN to
 Answer the questions below
 --
 
-#### What does LAN stand for?
+#### 1. What does LAN stand for?
 
 ![image](https://user-images.githubusercontent.com/94435318/161412260-2a96e801-06b0-45e7-8031-646508acfe22.png)
 
 ### Answer: Local Area Network
 
 
-### What is the verb given to the job that Routers perform?
+### 2. What is the verb given to the job that Routers perform?
 
 ![image](https://user-images.githubusercontent.com/94435318/161412369-8e36cc60-86b4-4dcd-a1fb-23b7c80e3e47.png)
 
 ### Answer: Routing
 
 
-### What device is used to centrally connect multiple devices on the local network and transmit data to the correct location?
+### 3. What device is used to centrally connect multiple devices on the local network and transmit data to the correct location?
 
 ![image](https://user-images.githubusercontent.com/94435318/161412468-8b9d2e31-f09e-485d-89e8-babe79eea6f9.png)
 
 ### Answer: Switch
 
 
-### What topology is cost-efficient to set up?
+### 4. What topology is cost-efficient to set up?
 
 ![image](https://user-images.githubusercontent.com/94435318/161412576-105e0d2b-7426-4e40-acca-506f56645c50.png)
 
 ### Answer: Bus Topology
 
-### What topology is expensive to set up and maintain?
+### 5. What topology is expensive to set up and maintain?
 
 ![image](https://user-images.githubusercontent.com/94435318/161412667-919771c1-07c5-4f0c-adfa-347c59acd9cc.png)
 
 ### Answer: Star Topology
 
-### Complete the interactive lab attached to this task. What is the flag given at the end?
+### 6. Complete the interactive lab attached to this task. What is the flag given at the end?
 
 ![image](https://user-images.githubusercontent.com/94435318/161412831-3b626cc4-46d5-4bd2-87b9-a1e27bd67527.png)
 
@@ -157,38 +157,38 @@ Subnetting allows you to separate these two use cases from each other whilst hav
 Answer the questions below
 --
 
-### What is the technical term for dividing a network up into smaller pieces?
+### 1. What is the technical term for dividing a network up into smaller pieces?
 
 ![image](https://user-images.githubusercontent.com/94435318/161413140-bc6ad1b4-da88-4c17-a8f3-4a8dfa0d7506.png)
 
 ### Answer: Subnetting
 
-### How many bits are in a subnet mask?
+### 2. How many bits are in a subnet mask?
 
 ![image](https://user-images.githubusercontent.com/94435318/161413172-49ac6510-0d8a-4b03-bc60-97348e447359.png)
 
 ### Answer: 32
 
-### What is the range of a section (octet) of a subnet mask?
+### 3. What is the range of a section (octet) of a subnet mask?
 
 ![image](https://user-images.githubusercontent.com/94435318/161413207-724fa49d-da1c-4b70-af68-8dc2625e8f99.png)
 
 ### Answer: 0-255
 
 
-### What address is used to identify the start of a network?
+### 4. What address is used to identify the start of a network?
 
 ![image](https://user-images.githubusercontent.com/94435318/161413266-cfda2a66-85b3-4fe9-9c5b-9b8b60843220.png)
 
 ### Answer: Network Address
 
-### What address is used to identify devices within a network?
+### 5. What address is used to identify devices within a network?
 
 ![image](https://user-images.githubusercontent.com/94435318/161413324-19c1f30c-81bd-49ba-b6bb-3c6da0348418.png)
 
 ### Answer: Host Address
 
-### What is the name used to identify the device responsible for sending data to another network?
+### 6. What is the name used to identify the device responsible for sending data to another network?
 
 ![image](https://user-images.githubusercontent.com/94435318/161413376-01e62506-4a7c-4036-8113-2def9b690ac3.png)
 
@@ -223,25 +223,25 @@ This process is illustrated in the diagram below:
 Answer the questions below
 --
 
-### What does ARP stand for?
+### 1. What does ARP stand for?
 
 ![image](https://user-images.githubusercontent.com/94435318/161413506-e5c355dd-99f1-4c10-99bb-425256fe65c7.png)
 
 ### Answer:  Address Resolution Protocol 
 
-### What category of ARP Packet asks a device whether or not it has a specific IP address?
+### 2. What category of ARP Packet asks a device whether or not it has a specific IP address?
 
 ![image](https://user-images.githubusercontent.com/94435318/161413618-b0faa9a6-e8a4-4407-8af0-0dced2fbb267.png)
 
 ### Answer: request
 
-### What address is used as a physical identifier for a device on a network?
+### 3. What address is used as a physical identifier for a device on a network?
 
 ![image](https://user-images.githubusercontent.com/94435318/161413654-54016644-e93d-4c42-8df7-259064b9ca03.png)
 
 ### Answer: MAC Address
 
-### What address is used as a logical identifier for a device on a network?
+### 4. What address is used as a logical identifier for a device on a network?
 
 ### Answer: IP Address
 
@@ -284,6 +284,7 @@ Continue your learning by joining the "OSI Model" room.
 
 Answer the questions below
 --
-## Join the "OSI Model" room.
+
+### Join the "OSI Model" room.
 
 ### Answer: Click Completed
