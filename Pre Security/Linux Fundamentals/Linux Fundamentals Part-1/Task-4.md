@@ -1,6 +1,6 @@
 ![image](https://user-images.githubusercontent.com/94435318/161430119-3b4a5d00-0d32-4fbf-8b6b-4979c8dfea2c.png)
 
-# 🟥 Task-1 Running your First Few Commands
+# 🟥 Task-3 Running your First Few Commands
 
 As we previously discussed, a large selling point of using OSs such as Ubuntu is how lightweight they can be. This, of course, doesn't come without its disadvantages, where for example, often there is no GUI (Graphical User Interface) or what is also known as a desktop environment that we can use to interact with the machine (unless it has been installed). A large part of interacting with these systems is using the "Terminal".
 
