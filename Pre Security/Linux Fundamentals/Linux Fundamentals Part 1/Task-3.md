@@ -20,4 +20,8 @@ For now, press "Start Machine" where you will be able to interact with your own 
   <img src="https://user-images.githubusercontent.com/94435318/161430751-d581178f-5fbe-43da-a311-f2713229128b.png">
 </p> 
 
-![image]()
+Answer the questions below-----------------------------------------------------------------
+--
+
+### I've deployed my first Linux machine!
+
