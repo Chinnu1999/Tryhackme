@@ -1,3 +1,5 @@
+![image](https://user-images.githubusercontent.com/94435318/161414660-878c3870-bbda-4395-8dba-0a61b6d50be9.png)
+
 # 🟥 Task-1 Introducing LAN Topologies
 
 ## Local Area Network (LAN) Topologies
