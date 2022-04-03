@@ -62,6 +62,8 @@ Routing is useful when devices are connected by many paths, such as in the examp
 ## Practical
 Attached to this task is an interactive practical featuring the discussed LAN topologies. Learn about the various ways in which they are vulnerable to breaking. Break the LAN topologies to retrieve the flag.
 
+----------------------------------------------------------------------------------------------
+
 Answer the questions below
 --
 
@@ -155,5 +157,133 @@ Subnetting allows you to separate these two use cases from each other whilst hav
 Answer the questions below
 --
 
+### What is the technical term for dividing a network up into smaller pieces?
 
-What is the technical term for dividing a network up into smaller pieces?
+![image](https://user-images.githubusercontent.com/94435318/161413140-bc6ad1b4-da88-4c17-a8f3-4a8dfa0d7506.png)
+
+### Answer: Subnetting
+
+### How many bits are in a subnet mask?
+
+![image](https://user-images.githubusercontent.com/94435318/161413172-49ac6510-0d8a-4b03-bc60-97348e447359.png)
+
+### Answer: 32
+
+### What is the range of a section (octet) of a subnet mask?
+
+![image](https://user-images.githubusercontent.com/94435318/161413207-724fa49d-da1c-4b70-af68-8dc2625e8f99.png)
+
+### Answer: 0-255
+
+
+### What address is used to identify the start of a network?
+
+![image](https://user-images.githubusercontent.com/94435318/161413266-cfda2a66-85b3-4fe9-9c5b-9b8b60843220.png)
+
+### Answer: Network Address
+
+### What address is used to identify devices within a network?
+
+![image](https://user-images.githubusercontent.com/94435318/161413324-19c1f30c-81bd-49ba-b6bb-3c6da0348418.png)
+
+### Answer: Host Address
+
+### What is the name used to identify the device responsible for sending data to another network?
+
+![image](https://user-images.githubusercontent.com/94435318/161413376-01e62506-4a7c-4036-8113-2def9b690ac3.png)
+
+### Answer: Default Gateway
+
+----------------------------------------------------------------------------------------------
+
+# 🟥 Task-3 The ARP Protocol
+
+Recalling from our previous tasks that devices can have two identifiers: A MAC address and an IP address, the ARP protocol or Address Resolution Protocol for short, is the technology that is responsible for allowing devices to identify themselves on a network.
+
+Simply, the ARP protocol allows a device to associate its MAC address with an IP address on the network. Each device on a network will keep a log of the MAC addresses associated with other devices.
+
+When devices wish to communicate with another, they will send a broadcast to the entire network searching for the specific device. Devices can use the ARP protocol to find the MAC address (and therefore the physical identifier) of a device for communication.
+
+## How does ARP Work?
+
+Each device within a network has a ledger to store information on, which is called a cache. In the context of the *ARP* protocol, this cache stores the identifiers of other devices on the network.
+
+In order to map these two identifiers together (IP address and MAC address), the ARP protocol sends two types of messages:
+     1. ARP Request
+     2. ARP Reply
+     
+When an ARP request is sent, a message is broadcasted to every other device found on a network by the device, asking whether or not the device's MAC address matches the requested IP address. If the device does have the requested IP address, an ARP reply is returned to the initial device to acknowledge this. The initial device will now remember this and store it within its cache (an ARP entry). 
+
+This process is illustrated in the diagram below:
+
+![image](https://user-images.githubusercontent.com/94435318/161413454-763d47a1-cdba-4f4c-8bac-ded2711af127.png)
+
+-------------------------------------------------------------------------------------------
+
+Answer the questions below
+--
+
+### What does ARP stand for?
+
+![image](https://user-images.githubusercontent.com/94435318/161413506-e5c355dd-99f1-4c10-99bb-425256fe65c7.png)
+
+### Answer:  Address Resolution Protocol 
+
+### What category of ARP Packet asks a device whether or not it has a specific IP address?
+
+![image](https://user-images.githubusercontent.com/94435318/161413618-b0faa9a6-e8a4-4407-8af0-0dced2fbb267.png)
+
+### Answer: request
+
+### What address is used as a physical identifier for a device on a network?
+
+![image](https://user-images.githubusercontent.com/94435318/161413654-54016644-e93d-4c42-8df7-259064b9ca03.png)
+
+### Answer: MAC Address
+
+### What address is used as a logical identifier for a device on a network?
+
+### Answer: IP Address
+
+--------------------------------------------------------------------------------------------
+
+# 🟥 Task-4 The DHCP Protocol
+
+IP addresses can be assigned either manually, by entering them physically into a device, or automatically and most commonly by using a DHCP (Dynamic Host Configuration Protocol) server. When a device connects to a network, if it has not already been manually assigned an IP address, it sends out a request (DHCP Discover) to see if any DHCP servers are on the network. The DHCP server then replies back with an IP address the device could use (DHCP Offer). The device then sends a reply confirming it wants the offered IP Address (DHCP Request), and then lastly, the DHCP server sends a reply acknowledging this has been completed, and the device can start using the IP Address (DHCP ACK).
+
+![image](https://user-images.githubusercontent.com/94435318/161413772-55ffa527-5f59-461f-9e85-ff7eaf695fd1.png)
+
+----------------------------------------------------------------------------------------------
+
+Answer the questions below:
+--
+
+### 1. What type of DHCP packet is used by a device to retrieve an IP address?
+
+![image](https://user-images.githubusercontent.com/94435318/161413935-c35a0157-df56-4a9c-b04c-ef749da86f3d.png)
+
+### Answer: DHCP Discover
+
+### 2. What type of DHCP packet does a device send once it has been offered an IP address by the DHCP server?
+
+![image](https://user-images.githubusercontent.com/94435318/161413953-fc821e91-4adc-4d41-9f84-cc1c181711de.png)
+
+### Answer: DHCP request
+
+### 3. Finally, what is the last DHCP packet that is sent to a device from a DHCP server?
+
+![image](https://user-images.githubusercontent.com/94435318/161413967-0ba2dddf-8699-4fb8-a5fb-f3137eef77eb.png)
+
+### Answer: DHCP ack
+
+------------------------------------------------------------------------------------------------
+
+# 🟥 Task-5 Continue Your Learning: OSI Model
+
+Continue your learning by joining the "OSI Model" room.
+
+Answer the questions below
+--
+## Join the "OSI Model" room.
+
+### Answer: Click Completed
