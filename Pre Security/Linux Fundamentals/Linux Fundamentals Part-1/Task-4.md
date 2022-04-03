@@ -14,7 +14,9 @@ We need to be able to do basic functions like navigate to files, output their co
 
 Let's get started with two of the first commands which I have broken down in the table below:
 
-![image](https://user-images.githubusercontent.com/94435318/161431302-e4577343-f3a1-45ee-a38f-50e6630f21b1.png)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/94435318/161431302-e4577343-f3a1-45ee-a38f-50e6630f21b1.png">
+</p>
 
    *See the snippets below for an example of each command being used...
 
@@ -22,4 +24,27 @@ Let's get started with two of the first commands which I have broken down in the
   <img src="https://user-images.githubusercontent.com/94435318/161431336-2b4bd367-08b0-4e91-a724-7cf18ee1818a.png">
 </p>
 
-<p align="center" text=" Try this on your Linux machine now! ">
+Try this on your Linux machine now! 
+
+Answer the questions below--------------------------------------------------------
+--
+
+### 1. If we wanted to output the text "TryHackMe", what would our command be?
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/94435318/161431634-a56a6ef2-9fdb-49f0-8a69-8c0d0e14d8ec.png">
+</p>
+
+### Answer: echo TryHackMe
+
+### 2. What is the username of who you're logged in as on your deployed Linux machine?
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/94435318/161431859-a6b9faf8-7c5a-4aef-b334-dff352ba997e.png">
+</p>
+
+### Answer: tryhackme
+
+
+
+
