@@ -66,8 +66,6 @@ Fragment: This is a reference to a location on the actual page requested. This i
   <img width="460" height="300" src="https://user-images.githubusercontent.com/94435318/161421168-f78b626f-5a56-4b6a-875b-2467d3f722c1.png">
 </p>            
 
-![image](https://user-images.githubusercontent.com/94435318/161421168-f78b626f-5a56-4b6a-875b-2467d3f722c1.png)
-
 But for a much richer web experience, you’ll need to send other data as well. This other data is sent in what is called headers, where headers contain extra information to give to the web server you’re communicating with, but we’ll go more into this in the Header task.
 
 Example Request:
