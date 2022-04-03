@@ -25,3 +25,6 @@ Answer the questions below------------------------------------------------------
 
 ### I've deployed my first Linux machine!
 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/94435318/161431090-302662d1-e938-4f3e-88ff-6d7a40913f64.png">
+</p>
