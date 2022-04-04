@@ -31,7 +31,7 @@ A great example of this is redirecting the output of the echo command that we le
 Let's say we wanted to create a file named "welcome" with the message "hey". We can run echo hey > welcome where we want the file created with the contents "hey" like so:
 
 <p align="center">
-  <img src="![image](https://user-images.githubusercontent.com/94435318/161462830-30c1ed8e-efcd-4c46-9606-a7f7741f7c34.png">
+  <img src="https://user-images.githubusercontent.com/94435318/161462830-30c1ed8e-efcd-4c46-9606-a7f7741f7c34.png">
 </p>
 
    *Note: If the file i.e. "welcome" already exists, the contents will be overwritten!
