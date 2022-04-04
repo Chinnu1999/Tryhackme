@@ -96,24 +96,32 @@ Answer the questions below------------------------------------------------------
 
 ### 1. On the Linux machine that you deploy, how many folders are there?
 
-![image](https://user-images.githubusercontent.com/94435318/161460236-b7d7ee3c-27f9-4d28-ad02-fce533fbce03.png)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/94435318/161460236-b7d7ee3c-27f9-4d28-ad02-fce533fbce03.png">
+</p>
 
 ### Answer: 4
 
 ### 2. Which directory contains a file? 
 
-![image](https://user-images.githubusercontent.com/94435318/161460353-eca259de-4b90-4c5b-bcf8-50d96372fc23.png)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/94435318/161460353-eca259de-4b90-4c5b-bcf8-50d96372fc23.png">
+</p>
 
 ### Answer: folder4
 
 ### 3. What is the contents of this file?
 
-![image](https://user-images.githubusercontent.com/94435318/161460405-c3625776-763d-4486-99b8-85234caeecb1.png)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/94435318/161460405-c3625776-763d-4486-99b8-85234caeecb1.png">
+</p>
 
 ### Answer: Hello World!
 
 ### 4. Use the cd command to navigate to this file and find out the new current working directory. What is the path?
 
-![image](https://user-images.githubusercontent.com/94435318/161460461-2a7be2cc-a033-45b1-82ba-97b9f99a9a5f.png)
+<p align="center">
+   <img src="https://user-images.githubusercontent.com/94435318/161460461-2a7be2cc-a033-45b1-82ba-97b9f99a9a5f.png">
+</p>
 
 ### Answwer: /home/tryhackme/folder4
