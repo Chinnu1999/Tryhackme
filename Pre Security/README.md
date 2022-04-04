@@ -7,6 +7,7 @@ The Pre-Security learning path is a beginner friendly and fun way to learn the b
 ## No Prior Knowledge
 
 You need no prerequisite to start this pathway! Just enthusiasm and excitement to learn!
+
 ---------------------------------------------------------------------------------
 
 ## 1. Cyber Security Introduction
