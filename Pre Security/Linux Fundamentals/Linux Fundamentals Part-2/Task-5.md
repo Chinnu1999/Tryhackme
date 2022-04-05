@@ -61,3 +61,29 @@ Answer the questions below------------------------------------------------------
 --
 
 ### 1. On the deployable machine, who is the owner of "important"?
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/94435318/161684069-3e514554-85f5-4644-9b6d-83b4e8d43305.png">
+</p>
+
+### Answer: user2
+
+### 2. What would the command be to switch to the user "user2"?
+
+### Answer: su user2
+
+### 3. Now switch to this user "user2" using the password "user2"
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/94435318/161686563-2ad0ae91-c39f-4ab5-b56e-f7f7de7d294c.png">
+</p>
+
+### 4. Output the contents of "important", what is the flag?
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/94435318/161683936-5ba193b7-8c96-4b82-a134-7a395d16e5a4.png">
+</p>  
+
+### Answer" THM{SU_USER2}
+
+--------------------------------------------------------------------------------------------
