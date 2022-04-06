@@ -49,7 +49,7 @@ Answer the questions below------------------------------------------------------
 
 - Answer: catsanddogs.jpg
 <p align="center">
-  <imgs src="https://user-images.githubusercontent.com/94435318/161910173-696f0487-06a3-4e68-b173-c4d5165093b6.png">
+  <img src="https://user-images.githubusercontent.com/94435318/161910173-696f0487-06a3-4e68-b173-c4d5165093b6.png">
 </p>    
 
   
