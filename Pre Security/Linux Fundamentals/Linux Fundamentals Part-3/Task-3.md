@@ -60,3 +60,11 @@ Answer the questions below---------------------------------------
 </p>
 
 ### 2. Edit "task3" located in "tryhackme"'s home directory using Nano. What is the flag?
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/94435318/161901131-05e3b568-61bc-4b45-86d4-437893ef2352.png">
+</p>
+
+- Answer: THM{TEXT_EDITORS}
+
+-----------------------------------------------------------------------------------------------
