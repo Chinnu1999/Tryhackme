@@ -13,7 +13,7 @@ Welcome to part three (and the finale) of the Linux Fundamentals module. So far,
 Answer the questions below-----------------------------------------------------------------
 --
 
-Let's proceed!
+### Let's proceed!
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/94435318/161897289-3aa61c58-5453-482a-aca1-c9603679232a.png">
