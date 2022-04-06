@@ -47,6 +47,6 @@ Answer the questions below------------------------------------------------------
 
 ### 2. When will the crontab on the deployed instance (10.10.214.32) run?
 
-- ANswer: 2reboot
+- ANswer: reboot
 
 ----------------------------------------------------------------------------------------------
