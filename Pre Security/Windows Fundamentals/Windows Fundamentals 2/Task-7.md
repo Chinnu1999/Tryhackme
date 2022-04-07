@@ -85,6 +85,8 @@ Answer the questions below------------------------------------------------------
  
  ### 2. For the ipconfig command, how do you show detailed information?
 
+- Answer: ipconfig /all
+
 <p align="center">
   <img src="https://user-images.githubusercontent.com/94435318/162129071-37dc709a-f340-4fd9-9b22-f1253df65e7d.png">
 </p>  
